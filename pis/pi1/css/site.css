@@ -1,0 +1,56 @@
+body {
+	padding-top: 75.25px;
+}
+
+ul img {
+	max-width: 30px;
+	max-height: 30px;
+}
+
+.box-shadow {
+	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.05),
+				0 4px 8px 0 rgba(0, 0, 0, 0.05);
+}
+
+.navbar .nav-item .nav-link {
+	color:  black;
+}
+
+.text-black {
+	color: black;
+}
+
+.bg-black {
+	background-color: black;
+}
+
+.img-size {
+	height: 70px;
+	width: 90px;
+}
+
+.img-size2 {
+	height: 70px;
+	width: 70px;
+}
+
+#quote {
+	background: url('../imagens/background.jpg') center center;
+	background-size: cover;
+}
+
+
+@media (max-width: 767px) {
+	body {
+		padding-top: 0px;
+	}
+	.fixed-top {
+		position: relative;
+	}
+	.font-size-changer1 {
+		font-size: 2.5rem;
+	}
+	.font-size-changer2 {
+		font-size: 1rem;
+	}
+}
