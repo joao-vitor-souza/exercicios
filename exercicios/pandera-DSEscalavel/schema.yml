@@ -1,0 +1,42 @@
+schema_type: dataframe
+version: 0.11.0
+columns:
+  name:
+    dtype: str
+    nullable: false
+    checks:
+      isin:
+      - apple
+      - banana
+      - orange
+    unique: false
+    coerce: false
+    required: true
+    regex: false
+  store_+:
+    dtype: str
+    nullable: true
+    checks:
+      isin:
+      - Aldi
+      - Walmart
+      - Whole Foods
+      - Schnucks
+    unique: false
+    coerce: false
+    required: true
+    regex: true
+  price:
+    dtype: int64
+    nullable: false
+    checks:
+      less_than: 10
+    unique: false
+    coerce: true
+    required: true
+    regex: false
+checks: null
+index: null
+coerce: false
+strict: false
+unique: null
