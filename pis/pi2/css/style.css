@@ -1,0 +1,509 @@
+/* Gerais */
+
+body {
+	font-family: sans-serif;
+}
+
+.row {
+	margin: 0;
+}
+
+.container {
+	padding: 70px 0;
+}
+
+p, li {
+	color: #444;
+	font-size: 14px;
+}
+
+/* Barra de Navegação */
+
+#nav-container {
+	padding-top: 0;
+	padding-bottom: 0;
+	background-color: #000;
+}
+
+
+/* Carroussel */
+
+.container-fluid {
+	padding: 0;
+}
+
+#mainSlider .carousel-inner, #mainSlider .carousel-item {
+	height: 100vh;
+	min-height: 350px;
+	background: no-repeat center center scroll;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#mainSlider .carousel-caption {
+	top: 30%;
+}
+
+#mainSlider .carousel-caption h2 {
+	font-size: 50px;
+	margin-bottom: 30px;
+}
+
+#mainSlider .carousel-caption p {
+	font-size: 22px;
+	font-weight: 300;
+	margin-bottom: 100px;
+	color: #FFF;
+}
+
+.main-btn {
+	background-color: #00607a;
+	color: #FFF;
+	text-transform: uppercase;
+	width: 200px;
+	height: 60px;
+	padding: 10px 20px;
+	border-radius: 30px;
+	border: 3px solid transparent;
+	transition: .5s;
+}
+
+.main-btn:hover {
+	text-decoration: none;
+	color: #FFF;
+	background-color: transparent;
+	border-color: #00607a;
+}
+
+.carousel-indicators .active{
+	background-color: #00607a;
+}
+
+
+/* Sobre a Empresa */
+
+#about-area p {
+	font-size: 17px;
+}
+
+.main-title {
+	color: #444;
+	margin: 0 0 65px 0;
+	font-size: 40px;
+	text-align: center;
+	margin-top: 10px;
+}
+
+.main-title::after {
+	content: "";
+	border-top: 2px solid #333;
+	width: 15%;
+	position: absolute;
+	top: 70px;
+	left: 42.5%;
+}
+
+.about-title {
+	font-size: 20px;
+	color: #444;
+	text-align: center;
+}
+
+#about-list {
+	list-style: none;
+	padding-left: 0;
+}
+
+#about-list li {
+	line-height: 30px;
+	font-size: 17px;
+}
+
+#about-list i {
+	color: #00607a;
+	margin-right: 15px;
+}
+
+
+/* Serviços */
+
+#services-area {
+	background-color: #e9e9e9;
+}
+
+.service-box {
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+.service-box i, .service-box h4 {
+	transition: .5s;
+}
+
+.service-box i {
+	font-size: 36px;
+	margin-bottom: 20px;
+	color: #444;
+}
+
+.service-box h4 {
+	font-size: 24px;
+	margin-bottom: 20px;
+}
+
+.service-box:hover > i, .service-box:hover > h4 {
+	color: #22ad39;
+}
+
+.service-box p {
+	font-size: 18px;
+}
+
+
+/* Produtos */
+
+#product-area {
+	padding-bottom: 20px;
+}
+
+#product-area .card-text{
+	font-size: 18px;
+}
+
+.card .card-body{
+	text-align: center;
+}
+
+.card .card-footer{
+	text-align: center;
+	color:#FFF;
+	font-size: 18px;
+}
+
+
+/* Clima */
+
+#climate-area {
+	background-color: rgb(228, 255, 254);
+}
+
+.climate-box {
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+.climate-box i {
+	font-size: 105px;
+	margin-bottom: 23px;
+}
+
+
+/* Newsletter */
+
+#news-area {
+	text-align: center;
+	padding-bottom: 20px;
+	display: flex;  
+	justify-content: center; 
+	background-color: #e9e9e9;
+}
+
+#news-area p {
+	font-size: 20px;
+	margin-bottom: 40px;
+}
+
+#email-input {
+	border-radius: 0;
+	border-top-left-radius: 20px;
+	border-bottom-left-radius: 20px;
+	border: 1px solid #00607a;
+	display: inline;
+	box-sizing: border-box;
+	width: 40%;
+	height: 40px;
+}
+
+#news-btn {
+	border-top-right-radius: 20px;
+	border-bottom-right-radius: 20px;
+	border: 1px solid #00607a;
+	background-color: #00607a;
+	text-transform: uppercase;
+	color: #FFF;
+	height: 40px;
+	padding: 0 30px;
+	margin-left: -130px;
+	position: absolute;
+	transition: .5s;
+}
+
+#news-btn:hover {
+	background-color: #FFF;
+	color: #00607a;
+}
+
+#news-btn-mobile {
+	display: none;
+}
+
+
+/* Rodapé */
+
+#contact-area {
+	text-align: center;
+}
+
+.contact-box {
+	padding-bottom: 50px;
+}
+
+.contact-box i {
+	color: #444;
+	border: solid 1px #444;
+	border-radius: 50%;
+	width: 55px;
+	height: 55px;
+	line-height: 55px;
+	font-size: 24px;
+	margin-bottom: 20px;
+}
+
+.contact-box a {
+	color: #444;
+}
+
+.contact-box p {
+	font-size: 20px;
+}
+
+.contact-title {
+	font-weight: bold;
+	color: #00607a;
+}
+
+#copy-area {
+	background-color: #b4b4b4;
+}
+
+#copy-area .container {
+	padding: 10px 0;
+	text-align: center;
+}
+
+#copy-area .container p {
+	margin-bottom: 0;
+}
+
+#copy-area .container a {
+	font-weight: bold;
+	color: #444;	
+}
+
+#copy-area .container a:hover {
+	text-decoration: none;
+	color: #FFF;
+}
+
+
+/* Responsividade para Grande */
+
+@media(max-width: 990px) {
+
+	.container {
+		padding: 20px 0;
+	}
+
+	#mainSlider .carousel-inner, #mainSlider .carousel-item {
+		height: auto;
+	}
+
+	#mainSlider .carousel-caption h2 {
+		font-size: 28px;
+	}
+
+	#mainSlider .carousel-caption p {
+		font-size: 18px;
+		margin-bottom: 40px;
+	}
+
+	.carousel-caption {
+		left: 10%;
+		right: 10%;
+	}
+
+	#about-area img {
+		margin-top: 100px;
+	}
+
+	.circle-box div {
+		padding: 0 10px;
+	}
+
+	#data-area p {
+		font-size: 16px;
+	}
+
+	.card-title {
+		font-size: 14px;
+	}
+
+	.card-text {
+		font-size: 12px;
+	}
+
+	#news-area p {
+		width: 80%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	#email-input {
+		width: 70%;
+	}
+
+}
+
+
+/* Responsividade para Média */
+
+@media(max-width: 768px) {
+
+	#about-list {
+		display:none;
+	}
+
+	#nav-container img {
+		filter: opacity(0.2) drop-shadow(0 0 0 black) drop-shadow(0 0 0 black) drop-shadow(0 0 0 black);
+	}
+
+	#mainSlider {
+		display: none;
+	}
+
+	.main-title {
+		font-size: 30px;
+	}
+
+	#about-area img {
+		margin-top: 0;
+		margin-bottom: 30px;
+	}
+
+	#data-area {
+		display: none;
+	}
+
+	#about-area {
+		padding-top: 80px;
+	}
+
+	#about-area .main-title {
+		font-size: 24px;
+	}
+
+	#product-area .col-md-3 {
+		width: 50%;
+		margin-bottom: 30px;
+	}
+
+	#climate-area .col-md-3 {
+		width: 50%;
+		margin-bottom: 30px;
+	}
+
+	#news-area {
+		padding-top: 20px;
+	}
+
+	#news-area p {
+		font-size: 16px;
+	}
+
+	#email-input {
+		width: 80%;
+	}
+
+	.contact-box {
+		margin-bottom: 0;
+	}
+
+	.main-title {
+		font-size: 24px;
+	}
+
+	.main-title::after {
+		top: 50px;
+	}
+
+}
+
+
+/* Responsividade para Pequena */
+
+@media(max-width: 410px) {
+
+	#nav-container img {
+		filter: opacity(0.2) drop-shadow(0 0 0 black) drop-shadow(0 0 0 black) drop-shadow(0 0 0 black);
+	}
+
+	#product-area .col-md-3 {
+		width: 100%;
+		margin-bottom: 30px;
+	}
+
+	#climate-area .col-md-3 {
+		width: 100%;
+		margin-bottom: 30px;
+	}
+
+	#news-btn {
+		display: none;
+	}
+
+	#news-btn-mobile {
+		display: inline;
+		border-top-right-radius: 20px;
+		border-bottom-right-radius: 20px;
+		border-top-left-radius: 20px;
+		border-bottom-left-radius: 20px;
+		border: 1px solid #00607a;
+		background-color: #00607a;
+		text-transform: uppercase;
+		font-size: 15px;
+		color: #FFF;
+		height: 40px;
+		padding: 0 30px;
+		margin-top: 12px;
+		transition: .5s;
+	}
+
+	#news-btn-mobile:hover {
+		background-color: #FFF;
+		color: #00607a;
+	}
+
+	#email-input {
+		border-top-right-radius: 20px;
+		border-bottom-right-radius: 20px;
+	}
+
+	.main-title {
+		font-size: 20px;
+	}
+
+	#about-area .main-title {
+		font-size: 20px;
+	}
+
+	.service-box h4 {
+		font-size: 18px;
+	}
+
+	.main-title::after {
+		top: 50px;
+	}
+
+}
